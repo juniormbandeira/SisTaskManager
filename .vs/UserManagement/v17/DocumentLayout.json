@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\usermanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\usermanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\dtos\\perfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\dtos\\perfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\services\\perfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\services\\perfilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|c:\\users\\lenovo\\source\\repos\\usermanagement.api\\usermanagement.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F285DDE8-E3DE-4AAB-9CD7-C45DC94AD156}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:23:33.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Services\\UserService.cs",
+              "RelativeToolTip": "UserManagement.API\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:21:25.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerfilDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\DTOs\\PerfilDto.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\DTOs\\PerfilDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\DTOs\\PerfilDto.cs",
+              "RelativeToolTip": "UserManagement.API\\DTOs\\PerfilDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:13:18.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Models\\Perfil.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Models\\Perfil.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Models\\Perfil.cs",
+              "RelativeToolTip": "UserManagement.API\\Models\\Perfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:35:01.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Models\\User.cs",
+              "RelativeToolTip": "UserManagement.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:35:38.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagement.API.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\UserManagement.API.csproj",
+              "RelativeDocumentMoniker": "UserManagement.API\\UserManagement.API.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\UserManagement.API.csproj",
+              "RelativeToolTip": "UserManagement.API\\UserManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-03T19:28:13.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PerfilService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Services\\PerfilService.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Services\\PerfilService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Services\\PerfilService.cs",
+              "RelativeToolTip": "UserManagement.API\\Services\\PerfilService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:26:22.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Program.cs",
+              "RelativeToolTip": "UserManagement.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:28:06.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:28:43.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "UserManagement.API\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T18:03:42.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\appsettings.json",
+              "RelativeToolTip": "UserManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T20:19:34.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UserManagement.API\\UserManagement.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "UserManagement.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:45:05.241Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

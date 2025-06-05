@@ -44,6 +44,39 @@ public class UserService
         };
     }
 
+    public async Task<UserDto.Response> UpdateUser(int id, UserDto.UpdateRequest dto)
+{
+    var user = await _context.Users.FindAsync(id);
+
+    if (user == null)
+        throw new Exception("Usuário não encontrado.");
+
+    // Verifica se o email está sendo alterado e se já existe no banco
+    if (user.Email != dto.Email && await _context.Users.AnyAsync(u => u.Email == dto.Email))
+        throw new Exception("Email já está em uso por outro usuário.");
+
+    // Atualiza os campos
+    user.Nome = dto.Nome;
+    user.Email = dto.Email;
+
+    // Atualiza a senha apenas se foi enviada
+    if (!string.IsNullOrWhiteSpace(dto.Senha))
+        user.SenhaHash = BCrypt.Net.BCrypt.HashPassword(dto.Senha);
+
+    _context.Users.Update(user);
+    await _context.SaveChangesAsync();
+
+    return new UserDto.Response
+    {
+        Id = user.Id,
+        Nome = user.Nome,
+        Email = user.Email,
+        DataCriacao = user.DataCriacao,
+        PerfilId = user.PerfilId
+    };
+}
+
+
     // Dentro da classe UserService, adicione:
     public async Task<UserDto.Response?> GetUserById(int id)
     {

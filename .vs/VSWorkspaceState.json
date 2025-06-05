@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UserManagement.API",
+    "\\UserManagement.API\\Controllers",
+    "\\UserManagement.API\\Models",
+    "\\UserManagement.API\\Services"
+  ],
+  "SelectedNode": "\\UserManagement.API\\Services\\PerfilService.cs",
+  "PreviewInSolutionExplorer": false
+}

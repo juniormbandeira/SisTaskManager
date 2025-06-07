@@ -1,42 +1,68 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace UserManagement.API.Services;
-
-public class RelatorioService
+namespace UserManagement.API.Services
 {
-    private readonly AppDbContext _context;
-    private readonly ILogger<PerfilService> _logger;
-
-    public RelatorioService(AppDbContext context, ILogger<PerfilService> logger)
+    public class RelatorioService
     {
-        _context = context;
-        _logger = logger;
-    }
+        private readonly AppDbContext _context;
+        private readonly ILogger<RelatorioService> _logger;
 
-    // --- Cria um novo perfil (vinculado a um User) ---
-    public async Task<PerfilDto.Response> CreateRelatorio()
-    {
-        try
+        public RelatorioService(AppDbContext context, ILogger<RelatorioService> logger)
         {
-            var tarefas = await _context.Tarefas.ToListAsync();
-
-            var relatorio = tarefas.Select(t => new RelatorioDto.Response
-            {
-                // Mapeia os campos aqui, ex:
-                // Nome = t.Nome,
-                // Setor = t.Setor,
-                // DataExecucao = t.Data,
-                // Status = t.Status
-            }).ToList();
-
-            return relatorio;
+            _context = context;
+            _logger = logger;
         }
-        catch (Exception ex)
+
+        /// <summary>
+        /// Gera um relatório de tarefas em ordem cronológica,
+        /// com opção de filtro por período (data inicial e final)
+        /// </summary>
+        /// <param name="dataInicial">Filtrar tarefas a partir desta data (opcional)</param>
+        /// <param name="dataFinal">Filtrar tarefas até esta data (opcional)</param>
+        /// <returns>Lista de RelatorioDto.Response</returns>
+        public async Task<List<RelatorioDto.Response>> CreateRelatorio(
+            DateTime? dataInicial = null, DateTime? dataFinal = null)
         {
-            _logger.LogError(ex, "Erro ao criar Relatorio");
-            throw;
+            try
+            {
+                // Busca as tarefas do banco
+                var query = _context.Tarefas.AsQueryable();
+
+                // Aplica filtro pela data inicial, se fornecido
+                if (dataInicial.HasValue)
+                    query = query.Where(t => t.DataCriacao >= dataInicial.Value);
+
+                // Aplica filtro pela data final, se fornecido
+                if (dataFinal.HasValue)
+                    query = query.Where(t => t.DataCriacao <= dataFinal.Value);
+
+                // Ordena tarefas por data de criação (crescente)
+                query = query.OrderBy(t => t.DataCriacao);
+
+                var tarefas = await query.ToListAsync();
+
+                // Mapeamento para DTO do relatório
+                var relatorio = tarefas.Select(t => new RelatorioDto.Response
+                {
+                    // Exemplo de mapeamento
+                    Nome = t.Nome,
+                    Setor = t.Setor,
+                    DataExecucao = t.DataCriacao,
+                    Status = t.Status
+                }).ToList();
+
+                return relatorio;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao criar Relatorio");
+                throw;
+            }
         }
     }
 }

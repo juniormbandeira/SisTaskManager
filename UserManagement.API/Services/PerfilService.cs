@@ -1,4 +1,4 @@
-﻿using UserManagement.API.Data;
+﻿'using UserManagement.API.Data;
 using UserManagement.API.DTOs;
 using UserManagement.API.Models;
 using Microsoft.EntityFrameworkCore;
@@ -103,6 +103,22 @@ public class PerfilService
             }).ToList()
         };
     }
+    //desabilita um usuario
+    public async Task DesabilitarUsuario(int usuarioId)
+{
+    var usuario = await _context.Usuarios.FindAsync(usuarioId);
+
+    if (usuario == null)
+        throw new KeyNotFoundException("Usuário não encontrado!");
+
+    if (!usuario.Ativo)
+        throw new InvalidOperationException("Usuário já está desabilitado.");
+
+    usuario.Ativo = false;
+    await _context.SaveChangesAsync();
+}
+
+
 
     // --- Deleta um perfil (soft delete ou hard delete) ---
     public async Task DeletePerfil(int id)
@@ -114,4 +130,4 @@ public class PerfilService
         _context.Perfis.Remove(perfil); // Hard delete
         await _context.SaveChangesAsync();
     }
-}
+}'
